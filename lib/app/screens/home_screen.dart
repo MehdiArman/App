@@ -18,7 +18,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
         bottomNavigationBar: GNav(
       rippleColor: Colors.grey[300]!,
-      hoverColor: Colors.grey[100]!,
+      hoverColor: Constants.ColorConstants.yellow,
       gap: 8,
       activeColor: Colors.black,
       iconSize: 24,
