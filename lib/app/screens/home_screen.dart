@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import '../controllers/index_controller.dart';
-import '../constants/constnats.dart';
+import '../constants/constnats.dart' as Constants show ColorConstants;
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
 
